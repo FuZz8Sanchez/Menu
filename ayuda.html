@@ -1,0 +1,59 @@
+<!DOCTYPE HTML5>
+<!--
+   File Created for
+   Rimorsoft Online | rimorsoft.com
+
+   Created on : 25/09/2016, 01:27:12 PM
+   Author     : Italo Morales - @italomoralesf
+-->
+<html>
+   <head>
+       <title>Menú, HTML y CSS - Rimorsoft Online</title>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="CSS/style.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+
+       <nav class="menu-main">
+           <a href="index.html">Home</a>
+           <a href="informes.html">Informes</a>
+           <a href="personalizacion.html">Personalización</a>
+           <a href="administracion.html">Administrador</a>
+           <a href="comentarios.html">Comentarios</a>
+           <a href="perfil.html">Perfíl</a>
+           <a href="ayuda.html" class="active">Ayuda</a>
+       </nav>
+        <h2>Ayuda</h2>
+
+        <div class="container">
+
+          <div class="perfilBox">
+            <img class="principal" src="img/ayuda.jpg" alt="Foto del grupo completo">
+
+              <div class= "comentario">
+              <form>
+              <input type="text" name="usrname" placeholder= "Nombre">
+              <input type="email" name="email" placeholder= "Correo" required>
+               <br>
+               <br>
+              <textarea rows="4" cols="50" name="comment" form="usrform">
+              Ingrese su consulta...
+              </textarea>
+              <p>Por favor deje su nombre, consulta y correo.
+              <br>O contáctenos a través de nuestras redes ¡Gracias!</p>
+              <input type="submit" name= "comentario" value="Enviar">
+              </form>
+               <div class="redes">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              </div>
+              </div>
+
+          </div>
+        </div>
+   </body>
+</html>
